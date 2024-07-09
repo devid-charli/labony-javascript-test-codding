@@ -10,9 +10,12 @@
 
 <script>
 
-var person1="Tom Crus Alvard";
-var parson2=Array.from(person1);
-document.write(person2[11]);
+var serialNumber=[30,35,40,45,50,55,80,90];
+var findNumber =serialNumber.filter(function(item){
+    return item < 50;
+
+});
+document.write(findNumber);
 
 
 

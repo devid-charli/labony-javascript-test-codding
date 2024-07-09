@@ -1,1 +1,0 @@
-# labony-javascript-test-codding

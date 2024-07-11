@@ -10,12 +10,20 @@
 
 <script>
 
-var serialNumber=[30,35,40,45,50,55,80,90];
-var findNumber =serialNumber.filter(function(item){
-    return item < 50;
+var array=[20,40,41,50,60,80,100];
+array.forEach(function(item){
+    document.write(item+'<br/> <br/>')
 
-});
-document.write(findNumber);
+})
+
+
+
+
+var group1=[20,40,41,50,60,80,100];
+var group2=group1.includes(100);
+document.write(group2);
+
+
 
 
 
